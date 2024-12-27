@@ -43,10 +43,6 @@ func generate_cloud_shape():
 			sin(angle) * distance
 		)
 		
-		# Rotate rectangle
-		#var rotation_degrees = randf() * 45 - 22.5
-		#rectangle.rotation_degrees = rotation_degrees
-		
 		# Position relative to center
 		rectangle.position = center + offset - rectangle.size / 2
 		
